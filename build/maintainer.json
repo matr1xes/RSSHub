@@ -1058,7 +1058,8 @@
         "nczitzk"
     ],
     "/cls/hot": [
-        "5upernova-heng"
+        "5upernova-heng",
+        "nczitzk"
     ],
     "/cls/telegraph/:category?": [
         "nczitzk"
@@ -1772,6 +1773,9 @@
     "/fosshub/:id": [
         "nczitzk"
     ],
+    "/freebuf/articles/:type": [
+        "trganda"
+    ],
     "/freecomputerbooks/": [
         "cubroe"
     ],
@@ -2460,6 +2464,9 @@
     ],
     "/hnrb/:id?": [
         "nczitzk"
+    ],
+    "/hnu/careers": [
+        "ningyougan"
     ],
     "/hongkong/dh/:language?": [
         "nczitzk"
@@ -3491,7 +3498,7 @@
     "/newzmz/:category?": [
         "nczitzk"
     ],
-    "/newzmz/view/:id?": [
+    "/newzmz/:id?": [
         "nczitzk"
     ],
     "/nextapple/realtime/:category?": [
@@ -3796,6 +3803,15 @@
     "/odaily/:id?": [
         "nczitzk"
     ],
+    "/oeeee/web/:channel": [
+        "TimWu007"
+    ],
+    "/oeeee/app/channel/:id": [
+        "TimWu007"
+    ],
+    "/oeeee/app/reporter/:id": [
+        "TimWu007"
+    ],
     "/oilchem/:type?/:category?/:subCategory?": [
         "nczitzk"
     ],
@@ -4087,6 +4103,9 @@
         "nczitzk"
     ],
     "/pubmed/trending/:filters?": [
+        "nczitzk"
+    ],
+    "/pumc/mdadmission": [
         "nczitzk"
     ],
     "/putty/changes": [
@@ -4431,6 +4450,9 @@
     ],
     "/sdu/wh/jwc/:column?": [
         "kxxt"
+    ],
+    "/sdust/yjsy/zhaosheng/:id?": [
+        "nczitzk"
     ],
     "/secnews/index": [
         "kaiili"
@@ -5078,6 +5100,9 @@
     ],
     "/twitter/trends/:woeid?": [
         "sakamossan"
+    ],
+    "/twitter/tweet/:id/status/:status/:original?": [
+        "LarchLiu"
     ],
     "/twitter/user/:id/:routeParams?": [
         "DIYgod",
@@ -7096,7 +7121,6 @@
     "/netflix/newsroom/:category?/:region?": [],
     "/sbs/chinese/:category?/:id?/:dialect?/:language?": [],
     "/questmobile/report/:category?/:label?": [],
-    "/rss3/blog": [],
     "/fashionnetwork/news/:sectors?/:categories?/:language?": [],
     "/dykszx/news/:type?": [],
     "/fashionnetwork/headline/:country?": []
