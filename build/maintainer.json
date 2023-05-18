@@ -174,6 +174,9 @@
     "/52hrtt/:area?/:type?": [
         "nczitzk"
     ],
+    "/5eplay/article": [
+        "Dlouxgit"
+    ],
     "/6park/:id?": [
         "nczitzk"
     ],
@@ -5816,7 +5819,7 @@
     "/yoasobi-music/media": [
         "Kiotlin"
     ],
-    "/yomiuri/yomiuri/:category?": [
+    "/yomiuri/:category?": [
         "Arracc"
     ],
     "/youku/channel/:channelId/:embed?": [
