@@ -2322,6 +2322,18 @@
       }
     ]
   },
+  "bad.news": {
+    "_name": "Bad.news",
+    ".": [
+      {
+        "title": "通用",
+        "docs": "https://docs.rsshub.app/new-media.html#bad-news-tong-yong",
+        "source": [
+          "/"
+        ]
+      }
+    ]
+  },
   "baidu.com": {
     "_name": "百度",
     "gushitong": [
@@ -20527,6 +20539,27 @@
           "/express"
         ],
         "target": "/techflowpost/express"
+      }
+    ]
+  },
+  "techpowerup.com": {
+    "_name": "TechPowerUp",
+    ".": [
+      {
+        "title": "Latest Content",
+        "docs": "https://docs.rsshub.app/en/new-media.html#techpowerup",
+        "source": [
+          "/"
+        ],
+        "target": "/techpowerup"
+      },
+      {
+        "title": "Reviews",
+        "docs": "https://docs.rsshub.app/en/new-media.html#techpowerup",
+        "source": [
+          "/review/search",
+          "/review"
+        ]
       }
     ]
   },

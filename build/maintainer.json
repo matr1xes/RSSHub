@@ -502,6 +502,9 @@
     "/baai/hub/:tagId?/:sort?/:range?": [
         "TonyRL"
     ],
+    "/bad/:path+": [
+        "nczitzk"
+    ],
     "/baidu/gushitong/index": [
         "CaoMeiYouRen"
     ],
@@ -4990,6 +4993,15 @@
     ],
     "/techflowpost/": [
         "nczitzk"
+    ],
+    "/techpowerup": [
+        "TonyRL"
+    ],
+    "/techpowerup/": [
+        "TonyRL"
+    ],
+    "/techpowerup/review/:keyword?": [
+        "TonyRL"
     ],
     "/telecompaper/news/:caty/:year?/:country?/:type?": [
         "nczitzk"
