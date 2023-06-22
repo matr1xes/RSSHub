@@ -132,6 +132,9 @@
     "/35photo/new": [
         "nczitzk"
     ],
+    "/36kr/hot-list/:category?": [
+        "nczitzk"
+    ],
     "/36kr/information/:category?": [
         "nczitzk"
     ],
@@ -2117,6 +2120,10 @@
     "/gov/ccdi/:path+": [
         "bigfei"
     ],
+    "/gov/chinatax/latest": [
+        "nczitzk",
+        "fuzy112"
+    ],
     "/gov/cmse/xwzx/zhxw": [
         "nczitzk"
     ],
@@ -2521,6 +2528,14 @@
     "/hex-rays/news": [
         "hellodword ",
         "TonyRL"
+    ],
+    "/hinatazaka46/news": [
+        "crispgm",
+        "akashigakki"
+    ],
+    "/hinatazaka46/blog": [
+        "nwindz",
+        "akashigakki"
     ],
     "/hit/hitgs": [
         "hlmu"
@@ -3845,8 +3860,9 @@
         "crispgm",
         "Fatpandac"
     ],
-    "/nogizaka46/blog": [
-        "Kasper4649"
+    "/nogizaka46/blog/:id?": [
+        "Kasper4649",
+        "akashigakki"
     ],
     "/notateslaapp/ota": [
         "mrbruce516"
@@ -6732,9 +6748,7 @@
     "/yidoutang/case/:type": [],
     "/kaiyan/index": [],
     "/keyakizaka46/news": [],
-    "/hinatazaka46/news": [],
     "/keyakizaka46/blog": [],
-    "/hinatazaka46/blog": [],
     "/moxingnet": [],
     "/hubu/news/:type": [],
     "/dlmu/news/:type": [],
@@ -7037,7 +7051,6 @@
     "/porn-images-xxx/:type?/:name?": [],
     "/dcinside/board/:id": [],
     "/egameqq/room/:id": [],
-    "/gov/chinatax/latest": [],
     "/lizhi/user/:id": [],
     "/boston/:tag?": [],
     "/changku": [],
