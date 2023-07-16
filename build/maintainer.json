@@ -725,10 +725,10 @@
     "/bilibili/user/fav/:uid/:disableEmbed?": [
         "DIYgod"
     ],
-    "/bilibili/user/followers/:uid": [
+    "/bilibili/user/followers/:uid/:loginUid": [
         "Qixingchen"
     ],
-    "/bilibili/user/followings/:uid": [
+    "/bilibili/user/followings/:uid/:loginUid": [
         "Qixingchen"
     ],
     "/bilibili/user/video/:uid/:disableEmbed?": [
@@ -2248,6 +2248,9 @@
     ],
     "/gov/nrta/news/:category?": [
         "yuxinliu-alex"
+    ],
+    "/gov/nrta/dsj/:category?": [
+        "nczitzk"
     ],
     "/gov/nsfc/news/:type?": [
         "Derekmini",
@@ -4734,6 +4737,9 @@
     ],
     "/sdzk/:bcid?/:cid?": [
         "nczitzk"
+    ],
+    "/sec-in/": [
+        "p7e4"
     ],
     "/secnews/index": [
         "kaiili"
