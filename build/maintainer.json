@@ -4675,6 +4675,12 @@
     "/ruc/hr/:category?": [
         "nczitzk"
     ],
+    "/runtrail": [
+        "TonyRL"
+    ],
+    "/runtrail/": [
+        "TonyRL"
+    ],
     "/rustcc/jobs": [
         "CcccFz"
     ],
@@ -5132,6 +5138,9 @@
     ],
     "/stheadline/std/realtime/:category*": [
         "TonyRL"
+    ],
+    "/stockedge/daily-updates/news": [
+        "Rjnishant530"
     ],
     "/storm/:category?/:id?": [
         "nczitzk"
