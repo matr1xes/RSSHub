@@ -59,6 +59,9 @@
     "/2048/:id?": [
         "nczitzk"
     ],
+    "/8264/list/:id?": [
+        "nczitzk"
+    ],
     "/12306/:date/:from/:to/:type?": [
         "Fatpandac"
     ],
@@ -1592,6 +1595,9 @@
     "/dmzj/news/:category?": [
         "vzz64"
     ],
+    "/dn/:language/news/:category?": [
+        "nczitzk"
+    ],
     "/dnaindia/:category": [
         "Rjnishant530"
     ],
@@ -1733,6 +1739,18 @@
     ],
     "/douyu/room/:id": [
         "DIYgod"
+    ],
+    "/dribbble/keyword/:keyword": [
+        "DIYgod",
+        "loganrockmore"
+    ],
+    "/dribbble/popular/:timeframe?": [
+        "DIYgod",
+        "loganrockmore"
+    ],
+    "/dribbble/user/:name": [
+        "DIYgod",
+        "loganrockmore"
     ],
     "/dtcj/datahero/:category?": [
         "nczitzk"
@@ -2207,6 +2225,9 @@
     "/github/pull/:user/:repo/:state?": [
         "hashman",
         "TonyRL"
+    ],
+    "/github/pulse/:user/:repo/:period?": [
+        "jameschensmith"
     ],
     "/github/repos/:user": [
         "DIYgod"
@@ -3436,6 +3457,9 @@
     "/kakuyomu/episode/:id": [
         "huangliangshusheng"
     ],
+    "/kantarworldpanel/:region/:category?": [
+        "nczitzk"
+    ],
     "/kbs/news/:category?/:language?": [
         "nczitzk"
     ],
@@ -3687,6 +3711,9 @@
     ],
     "/magazinelib/latest-magazine/:query?": [
         "NavePnow"
+    ],
+    "/mail/imap/:email/:folder*": [
+        "kt286"
     ],
     "/mangadex/:id/:lang?": [
         "vzz64"
@@ -6188,6 +6215,15 @@
     "/whoscall/categories/:category?": [
         "nczitzk"
     ],
+    "/whu/cs/:type": [
+        "ttyfly"
+    ],
+    "/whu/gs/:type?": [
+        "Delreyaa"
+    ],
+    "/whu/news/:type*": [
+        "SChen1024"
+    ],
     "/wikinews/latest": [
         "KotoriK"
     ],
@@ -6748,9 +6784,6 @@
     "/geektime/column/:cid": [],
     "/geektime/news": [],
     "/infzm/:id": [],
-    "/dribbble/popular/:timeframe?": [],
-    "/dribbble/user/:name": [],
-    "/dribbble/keyword/:keyword": [],
     "/huya/live/:id": [],
     "/showroom/room/:id": [],
     "/fdroid/apprelease/:app": [],
@@ -6871,8 +6904,6 @@
     "/kmust/jwc/:type?": [],
     "/kmust/job/careers/:type?": [],
     "/kmust/job/jobfairs": [],
-    "/whu/cs/:type": [],
-    "/whu/news/:type?": [],
     "/jgsu/jwc": [],
     "/dlu/jiaowu/news": [],
     "/dgut/jwc/:type?": [],
@@ -7222,7 +7253,6 @@
     "/sans/summit_archive": [],
     "/latexstudio/home": [],
     "/jskou/:type?": [],
-    "/mail/imap/:email": [],
     "/network360/jobs": [],
     "/zhilian/:city/:keyword": [],
     "/nciae/news": [],
