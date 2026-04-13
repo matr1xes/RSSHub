@@ -1,30 +1,30 @@
 name: Comment on Issue
 
 on:
-  issues:
-    types: [opened, edited, reopened]
+    issues:
+        types: [opened, edited, reopened]
 
 jobs:
-  testRoute:
-    name: Call maintainers
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    if: github.event.sender.login != 'issuehunt-oss[bot]'
-    steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 8
-      - uses: actions/setup-node@v4 # just need its cache
-        with:
-          node-version: lts/*
-          cache: 'pnpm'
-      - name: Install dependencies (pnpm) # needed since we need to parse markdown, so we also use got instead
-        run: pnpm i
-      - name: Generate feedback
-        uses: actions/github-script@v7
-        with:
-          github-token: ${{secrets.GITHUB_TOKEN}}
-          script: |
-            const script = require(`${process.env.GITHUB_WORKSPACE}/scripts/workflow/test-issue/call-maintainer.js`)
-            return script({ github, context, core })
+    testRoute:
+        name: Call maintainers
+        runs-on: ubuntu-slim
+        timeout-minutes: 5
+        permissions:
+            issues: write
+        if: github.event.sender.login != 'issuehunt-oss[bot]'
+        steps:
+            - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+            - uses: pnpm/action-setup@08c4be7e2e672a47d11bd04269e27e5f3e8529cb # v6.0.0
+            - uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
+              with:
+                  node-version: lts/*
+                  cache: 'pnpm'
+            - name: Install dependencies (pnpm) # import remark-parse and unified
+              run: pnpm i
+            - name: Generate feedback
+              uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+              with:
+                  github-token: ${{ secrets.GITHUB_TOKEN }}
+                  script: |
+                      const { default: callMaintainer } = await import('${{ github.workspace }}/scripts/workflow/test-issue/call-maintainer.mjs')
+                      await callMaintainer({ github, context, core })
