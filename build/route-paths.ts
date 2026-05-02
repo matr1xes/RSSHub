@@ -2418,7 +2418,6 @@ export type RoutePath =
   | `/ruankao/news`
   | `/ruc/ai/:category?`
   | `/ruc/hr/:category?`
-  | `/rule34video/latest`
   | `/runyeah/`
   | `/rustcc/jobs`
   | `/rustcc/news`
